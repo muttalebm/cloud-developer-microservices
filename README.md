@@ -20,7 +20,7 @@ mv udacity-c3-deployment/k8s/samples/aws-secret-sample.yaml udacity-c3-deploymen
 mv udacity-c3-deployment/k8s/samples/env-secret-sample.yaml udacity-c3-deployment/k8s/env-secret.yaml
 mv udacity-c3-deployment/k8s/samples/env-configmap-sample.yaml udacity-c3-deployment/k8s/env-configmap.yaml
 ```
-
+for
 Deploy application using services and deployment
 
 ```kubectl apply -f udacity-c3-deployment/k8s```
@@ -28,3 +28,6 @@ Deploy application using services and deployment
 Check Cluster status
 
 ```kubectl get all```
+
+Expose frontend and reverse proxy through port forward
+``````
