@@ -30,4 +30,7 @@ Check Cluster status
 ```kubectl get all```
 
 Expose frontend and reverse proxy through port forward
-``````
+```
+    kubectl port-forward service/reverseproxy 8080:8080
+    kubectl port-forward service/frontend 8100:8100
+```
